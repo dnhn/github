@@ -1,6 +1,6 @@
-import type { Metadata } from "next";
+import type { Metadata } from 'next';
 
-import "./globals.css";
+import './globals.css';
 
 export default function RootLayout({
   children,
@@ -15,6 +15,6 @@ export default function RootLayout({
 }
 
 export const metadata: Metadata = {
-  title: "",
-  description: "",
+  title: '',
+  description: '',
 };
